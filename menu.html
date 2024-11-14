@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Project</title>
+    <link rel="stylesheet" href="CSS/menu.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Our Menu</h1>
+      <ul>
+        <li><button onclick="filterMenu('all')">All</button></li>
+        <li><button onclick="filterMenu('BreakFast')" class="BreakFast">BreakFast</button></li>
+        <li><button onclick="filterMenu('lunch')" class="lunch">Lunch</button></li>
+        <li><button onclick="filterMenu('Shakes')" class="Shakes">Shakes</button></li>
+      </ul>
+      <div class="Wrapper">
+        <div class="food" data-category="BreakFast">
+          <img src="images/item-1.jpeg" alt="" />
+          <div class="title">
+            <header>
+              <h4>Buttermilk pancakes</h4>
+              <h4 class="price">$15.99</h4>
+            </header>
+            <p>
+              I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock
+              freegan copper mug whatever cold-pressed.
+            </p>
+          </div>
+        </div>
+        <div class="food" data-category="lunch">
+          <img src="images/item-2.jpeg" alt="" />
+          <div class="title">
+            <header>
+              <h4>Dinner Double</h4>
+              <h4 class="price">$13.99</h4>
+            </header>
+            <p>
+              vaporware iPhone mumblecore selvage raw denim slow-carb leggings
+              gochujang helvetica man braid jianbing. Marfa thundercats.
+            </p>
+          </div>
+        </div>
+        <div class="food" data-category="Shakes">
+          <img src="images/item-3.jpeg" alt="" />
+          <div class="title">
+            <header>
+              <h4>Godzilla milkshake</h4>
+              <h4 class="price">$6.99</h4>
+            </header>
+            <p>
+              ombucha chillwave fanny pack 3 wolf moon street art photo booth
+              before they sold out organic viral.
+            </p>
+          </div>
+        </div>
+        <div class="food" data-category="BreakFast">
+          <img src="images/item-4.jpeg" alt="" />
+          <div class="title">
+            <header>
+              <h4>Country Delight</h4>
+              <h4 class="price">$20.99</h4>
+            </header>
+            <p>
+              Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism
+              austin mlkshk truffaut.
+            </p>
+          </div>
+        </div>
+        <div class="food" data-category="lunch">
+          <img src="images/item-5.jpeg" alt="" />
+          <div class="title">
+            <header>
+              <h4>Egg Attack</h4>
+              <h4 class="price">$22.99</h4>
+            </header>
+            <p>
+              franzen vegan pabst bicycle rights kickstarter pinterest
+              meditation farm-to-table 90's pop-up.
+            </p>
+          </div>
+        </div>
+        <div class="food" data-category="Shakes">
+          <img src="images/item-6.jpeg" alt="" />
+          <div class="title">
+            <header>
+              <h4>Oreo Dream</h4>
+              <h4 class="price">$18.99</h4>
+            </header>
+            <p>
+              Portland chicharrones ethical edison bulb, palo santo craft beer
+              chia heirloom iPhone everyday
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/menu.js"></script>
+  </body>
+</html>
